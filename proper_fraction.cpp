@@ -32,7 +32,7 @@ int main()
 {
     int n;
     cin >> n;
-    n=eller(n);
+    n=proper_fraction(n);
     cout << n;
     return 0;
 }
