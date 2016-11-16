@@ -3,7 +3,7 @@
 using namespace std;
 
 int proper_fraction (int n){
-  return 2*eller(n)+1;
+  return 2*eller(n);
 }
 
 double binpow (double a, int n){
