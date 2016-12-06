@@ -18,7 +18,7 @@ int main()
                                         for(int o=0; o<10; o++){
                                             if (((e+o+y+s)%11)==0) for(int u=0; u<10; u++){
                                             for(int t=0; t<10; t++){
-                                               if (((p+a+s)%3)!=0) cout << q << w << e << r << t << y << u << i << o << p << a << s << "    " << (w+r+y+i+p+s) << "     " << (e+y+o+s) << "    " << (p+a+s) << endl;
+                                               if (((p+a+s)%3)!=0) cout << q << w << e << r << t << y << u << i << o << p << a << s << endl;
                                             }
                                         }
                                         }
