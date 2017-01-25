@@ -62,20 +62,17 @@ int main()
             char t;
             cin >> t;
             W.set(i, t);
-            cout << W.get(i) << i << endl;
-    }
+        }
     W.print();
     for(int i=0; i<4; i++){
             char t;
             cin >> t;
             B.set(i, t);
-            cout << i << endl;
     }
     for(int i=0; i<7; i++){
             char t;
             cin >> t;
             C.set(i, t);
-            cout << i << endl;
     }
     if(W.find(B)==1) cout << "123" << "  .  ";
     if(W.find(C)==0) cout << "456" << "  .  ";
