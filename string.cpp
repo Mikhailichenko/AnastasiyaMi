@@ -70,6 +70,7 @@ int main()
     sstring W(6);
     sstring B(4);
     sstring C(7);
+    sstring D(5);
     for(int i=0; i<6; i++){
             char t;
             cin >> t;
@@ -85,13 +86,18 @@ int main()
             cin >> t;
             C.set(i, t);
     }
+    for(int i=0; i<5; i++){
+            char t;
+            cin >> t;
+            D.set(i, t);
+    }
     cout << W.get(1) << endl;
     W.print();
     cout << "      ";
     W.concat(B);
     W.print();
     cout << "      ";
-    if(W.find(B)==1) cout << "123" << "  .  ";
-    if(W.find(C)==0) cout << "456";
+    if(C.find(D)==1) cout << "123" << "  .  ";
+    if(D.find(C)==0) cout << "456";
     return 0;
 }
